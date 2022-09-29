@@ -27,7 +27,6 @@ def get_health():
 
     return result
 
-
 @app.route("/api/students/<uni>", methods=["GET"])
 def get_student_by_uni(uni):
 
